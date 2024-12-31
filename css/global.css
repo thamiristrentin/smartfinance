@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #F2F2F2;
+    --azulclaro: #0066CC;
+    --azulescuro: #002E5D;
+    --amarelo: #FFD700;
+}
+
+.hero-section, .about-section {
+    max-width: 1274px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Condensed-ExtraBold;
+    src: url("/fontes/UbuntuSans_Condensed-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Condensed-Light;
+    src: url("/fontes/UbuntuSans_Condensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Condensed-Medium;
+    src: url("/fontes/UbuntuSans_Condensed-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("/fontes/UbuntuSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url("/fontes/UbuntuSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url("/fontes/UbuntuSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Medium;
+    src: url("/fontes/UbuntuSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("/fontes/UbuntuSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url("/fontes/UbuntuSans-SemiBold.ttf") format("truetype");
+}
